@@ -15,7 +15,7 @@ exports[`Navbar renders without crashing 1`] = `
       >
         <button
           className="inline-flex items-center justify-center p-2 rounded-md text-black-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-          id="headlessui-disclosure-button-4"
+          id="headlessui-disclosure-button-3"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -64,7 +64,7 @@ exports[`Navbar renders without crashing 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
               >
-                LOGO
+                F - MOVIES
               </a>
             </span>
           </h3>
@@ -83,7 +83,7 @@ exports[`Navbar renders without crashing 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
               >
-                LOGO
+                F - MOVIES
               </a>
             </span>
           </h3>
@@ -100,62 +100,8 @@ exports[`Navbar renders without crashing 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
-              Some Link
+              PlayList
             </a>
-          </div>
-        </div>
-      </div>
-      <div
-        className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
-      >
-        <button
-          className="bg-white-800 p-1 rounded-full text-black-400 hover:text-teal-accent-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-accent-400 focus:ring-teal-accent-400"
-        >
-          <span
-            className="sr-only"
-          >
-            View notifications
-          </span>
-          <svg
-            aria-hidden="true"
-            className="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-            />
-          </svg>
-        </button>
-        <div
-          className="ml-3 relative"
-        >
-          <div>
-            <button
-              aria-haspopup={true}
-              className="bg-gray-800 flex text-sm rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-accent-400 focus:ring-white"
-              id="headlessui-menu-button-6"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              type="button"
-            >
-              <span
-                className="sr-only"
-              >
-                Open user menu
-              </span>
-              <img
-                alt=""
-                className="h-8 w-8 rounded"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              />
-            </button>
           </div>
         </div>
       </div>

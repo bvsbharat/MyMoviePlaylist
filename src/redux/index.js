@@ -7,7 +7,9 @@ import { generateReducers } from "./util/generateReducers";
 
 // Initial state of redux
 const initialState = {
-    data: [],
+    data: { result: {}, pageNo: 1 },
+    loading: false,
+    playlist: [],
 };
 
 const composeEnhancers =

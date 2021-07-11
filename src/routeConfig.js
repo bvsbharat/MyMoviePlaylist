@@ -1,6 +1,3 @@
-const routes = [
-    // { name: "Dashboard", href: "dashboard", current: true },
-    { name: "Some Link", href: "post", current: false },
-];
+const routes = [{ name: "PlayList", href: "playList", current: false }];
 
 export { routes };

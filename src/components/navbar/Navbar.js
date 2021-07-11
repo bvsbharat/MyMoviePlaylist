@@ -1,15 +1,13 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
-import RouteLinks from "../routeLinks";
-import { routes } from "../../routeConfig";
+import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { routes } from "../../routeConfig";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Navbar() {
     return (
         <Disclosure as="nav" className="w-full mx-auto bg-white shadow">
             {({ open }) => (
@@ -41,12 +39,12 @@ export default function Example() {
                                         <span className="relative inline-block px-6 py-2">
                                             <div className="absolute inset-0 transform skew-x-12 bg-teal-accent-400" />
 
-                                            <Link href="/dashboard">
+                                            <Link href="/search">
                                                 <a
                                                     href="#"
                                                     className="relative text-teal-900"
                                                 >
-                                                    MY PLAYLIST
+                                                    F - MOVIES
                                                 </a>
                                             </Link>
                                         </span>
@@ -56,12 +54,12 @@ export default function Example() {
                                         <span className="relative inline-block px-6 py-2">
                                             <div className="absolute inset-0 transform skew-x-12 bg-teal-accent-400" />
 
-                                            <Link href="/dashboard">
+                                            <Link href="/search">
                                                 <a
                                                     href="#"
                                                     className="relative text-teal-900"
                                                 >
-                                                    MY PLAYLIST
+                                                    F - MOVIES
                                                 </a>
                                             </Link>
                                         </span>

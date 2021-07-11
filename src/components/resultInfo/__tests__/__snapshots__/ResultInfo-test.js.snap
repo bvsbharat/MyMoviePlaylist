@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultInfo renders without crashing 1`] = `
+<div
+  className="my-10 border-t border-gray-200"
+>
+  0
+</div>
+`;

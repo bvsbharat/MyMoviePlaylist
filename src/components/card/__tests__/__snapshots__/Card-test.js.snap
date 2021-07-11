@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders without crashing 1`] = `
+<div
+  className="my-1 px-1 w-full md:w-1/2  lg:my-4 lg:px-4 lg:w-1/4"
+>
+  <article
+    className="overflow-hidden rounded-lg shadow-lg"
+  >
+    <div
+      alt="move poster"
+      className="max-h-80 w-full object-cover"
+      style={
+        Object {
+          "backgroundImage": "url(undefined)",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "height": "300px",
+          "maxHeight": "300px",
+          "width": "100%",
+        }
+      }
+    />
+    <div
+      className="bg-white dark:bg-gray-800 w-full p-4"
+    >
+      <header
+        className="flex items-center justify-between leading-tight p-2 md:p-4"
+      >
+        <h1
+          className="text-lg"
+        >
+          <p
+            className="no-underline w-40 truncate ... hover:underline text-black text-indigo-500 text-md font-medium"
+          />
+        </h1>
+        <p
+          className="text-grey-darker text-sm text-gray-800 dark:text-white text-xl font-medium mb-2"
+        />
+      </header>
+      <footer
+        className="flex items-center justify-between leading-none p-2 md:p-4"
+      >
+        <div
+          className="flex items-center mt-4"
+        >
+          <button
+            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            onClick={[Function]}
+            type="button"
+          >
+            Add to Playlist
+          </button>
+        </div>
+      </footer>
+    </div>
+  </article>
+</div>
+`;

@@ -6,12 +6,12 @@ import Footer from "../footer";
 const Layout = ({ children }) => {
     return (
         <>
-            <div className="absolute bg-gray-200 w-full h-full">
+            <div className="absolute  w-full h-full">
                 <Navbar />
-                <div className="container mx-auto  h-full  px-10 py-10">
-                    {children}
+                <div className="container mx-auto  h-full  ">
+                    <div className=" mx-auto min-h-full ">{children}</div>
+                    <Footer />
                 </div>
-                <Footer />
             </div>
         </>
     );

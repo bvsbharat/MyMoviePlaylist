@@ -1,6 +1,8 @@
 import axios from "axios";
-import allJobs from "./jobs";
+import { searchMovie } from "./SearchMovie";
 
-axios.defaults.baseURL = process.env.API_URL;
+import API_Config from "./config";
 
-export { allJobs };
+axios.defaults.baseURL = API_Config.API_URL;
+
+export { searchMovie };

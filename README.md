@@ -1,24 +1,13 @@
-# nextjs-boilerplate
+# My movie Playlist
 
-Next Js Boilerplate with Redux-thunk, Jest Unit Testing, TailWind CSS.
+ReactJS project on omdb API to search for favorites movies and create a playlist.
 
-## Getting Started
-
-superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
-
-Every plugin comes with an example to give you a brief knowledge about their usage.
-
-## Components and pages 
-```bash
-   add you component and page details  
-    
-```
 ## Available Scripts
 
 ### Running the development server.
 
 ```bash
-    npm run dev 
+    npm run dev
 ```
 
 ### Building for production.
@@ -39,13 +28,13 @@ Every plugin comes with an example to give you a brief knowledge about their usa
     npm run lint
 ```
 
-### Running your tests.
+### Running your tests. (Test are pending due to limited time to complete)
 
 ```bash
     npm run test
 ```
 
-## Learn More
+## Resources
 
 To learn more about **superplate**, please check out the [Documentation](https://github.com/pankod/superplate).
 
